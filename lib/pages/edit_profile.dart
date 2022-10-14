@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:settings_ui/pages/settings.dart';
+import 'package:../settings.dart';
 
 class SettingsUI extends StatelessWidget {
   @override
@@ -54,7 +54,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
           child: ListView(
             children: [
               Text(
-                "Edit Profile",
+                " Profile",
                 style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
               ),
               SizedBox(
@@ -109,10 +109,10 @@ class _EditProfilePageState extends State<EditProfilePage> {
               SizedBox(
                 height: 35,
               ),
-              buildTextField("Full Name", "Dor Alex", false),
-              buildTextField("E-mail", "alexd@gmail.com", false),
+              buildTextField("Full Name", "Karthik U", false),
+              buildTextField("E-mail", "karthik@gmail.com", false),
               buildTextField("Password", "********", true),
-              buildTextField("Location", "TLV, Israel", false),
+              buildTextField("Location", "kochi, India", false),
               SizedBox(
                 height: 35,
               ),
